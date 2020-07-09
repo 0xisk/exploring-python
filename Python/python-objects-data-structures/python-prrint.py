@@ -1,7 +1,7 @@
 print('This is a {} string'.format('Inserted'))
 print('The {} {} {}'.format('fox', 'brown', 'quick'))
 print('The {2} {1} {0}'.format('fox', 'brown', 'quick'))
-print('The {0} {0} {0}'.format('fox', 'brown', 'quick'))
+print('The {0} {0}'.format('fox', 'quick'))
 print('The {f} {f} {f}'.format(f='fox', b='brown', q='quick'))
 
 result = 100/777
